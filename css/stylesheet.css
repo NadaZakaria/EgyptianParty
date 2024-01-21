@@ -1,0 +1,115 @@
+#home{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6) 0% 100%), url(../images/events-heavenly-header.jpg);
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.mainContnt{
+    font-size: 50px
+}
+
+#sideBar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999999999;
+    display: flex;
+
+}
+
+ .InnerSideBar ul  {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+.InnerSideBar ul li:hover {
+    color: brown;
+    transition: 0.2s;
+}
+
+.InnerSideBar{
+    background-color: teal;
+    width: 250px;
+    padding-left: 10px;
+   
+}
+
+.InnerSideBar2{
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    top: 35px;
+    right:35px;
+}
+
+.slideUp h3{
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.slideUp p{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0;
+    display: none;
+
+}
+
+
+#joinUs{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6) 0% 100%), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+
+#joinUs h2{
+    margin: 20px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 50px;
+}
+
+.icons i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icons i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+.sty{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+textarea{
+    height: 200px;
+    resize: vertical;
+}
+
+.form button{
+    background-color: #D62E33;
+    padding: 10px;
+}
